@@ -1,7 +1,11 @@
 #include<stdio.h>
+//area of square
 
 int main(){
-    int age =22;
-    printf("age is %d\n",age);
+    int side;
+    printf("enter side");
+    scanf("%d",&side);
+
+    printf("area is :%d",side*side);
     return 0;
 }
